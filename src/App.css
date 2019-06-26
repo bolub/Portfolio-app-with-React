@@ -1,0 +1,49 @@
+.App {
+    font-family: 'Work Sans', sans-serif;
+}
+
+.transform-none{
+    text-transform: none;
+}
+
+h1, h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.brand {
+    font-family: 'Cookie', cursive;
+}
+
+.code-font {
+    font-size: 1.9rem;
+}
+
+@media(max-width:440px) {
+    .lead-sm {
+        font-size: 1rem;
+    }
+
+    .img-responsive{
+        width: 210px;
+    }
+   
+}
+
+@media(height:736px){
+    .img-responsive{
+        margin-top: 6rem !important;
+    }
+}
+
+@media(height:812px) {
+    .img-responsive {
+        margin-top: 7rem !important;
+        width: 230px;
+    }
+}
+
+@media(height:823px) {
+    .img-responsive {
+        margin-top: 8rem !important;
+    }
+}
